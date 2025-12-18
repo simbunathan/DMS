@@ -7,7 +7,7 @@ import { AuthService } from './auth.service';
     providedIn: 'root'
 })
 export class DocService {
-    private apiUrl = 'http://localhost:5000/api/documents';
+    private apiUrl = 'https://dms-vn1p.onrender.com/api/documents';
 
     constructor(private http: HttpClient, private authService: AuthService) { }
 
